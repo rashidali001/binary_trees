@@ -22,8 +22,7 @@ return (NULL);
 }
 if (parent == NULL)
 {
-newnode->parent = NULL;
-return (newnode);
+return (NULL);
 }
 if (parent->right == NULL)
 {
